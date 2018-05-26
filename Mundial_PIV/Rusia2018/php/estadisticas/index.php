@@ -41,8 +41,11 @@
 		 				<tbody>
 		 					<?php 
 		 						foreach ($jugadores as $jugador) { ?>
+
 			 						<tr>
-				 						<td> <?php echo $jugador['JugadorNom']  ?> </td>
+				 						<td> 
+				 							<?php echo $jugador['JugadorNom']. " " . $jugador['JugadorApe']  ?>	
+				 						</td>
 				 						<td> <?php echo $jugador['JugadorNum']  ?> </td>
 				 						<td> <?php echo $jugador['JugadorEdad']  ?> </td>
 				 						<td> <?php echo $jugador['JugadorPo']  ?> </td>
