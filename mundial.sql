@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 26-05-2018 a las 01:52:42
+-- Tiempo de generación: 26-05-2018 a las 03:27:31
 -- Versión del servidor: 10.1.30-MariaDB
 -- Versión de PHP: 7.2.2
 
@@ -413,7 +413,7 @@ CREATE TABLE `sedes` (
 --
 
 INSERT INTO `sedes` (`SedeId`, `sedinfraestrutura`, `sedtranscomunicacion`, `sedfuenEmp`, `sedServiciosbas`, `sedalimentacion`, `sedrecreacion`, `sedclima`, `sedpoblacion`, `Sedcultura`, `SedNom`, `SedUrl`) VALUES
-(10, '', '', '', '', 'Seledka pod shuboy', '', '26', '', '', 'Moscu', './src/img/sedes/moscu.jpeg'),
+(10, '', '', '', '', 'Seledka pod shuboy', '', '26', '', '', 'Moscu', './src/img/sedes/moscu.jpg'),
 (11, '', '', '', '', 'Kystyby', '', '24', '', '', 'Kazán', './src/img/sedes/kazan.jpg'),
 (12, '', '', '', '', 'tsebyar shurba', '', '23', '', '', 'Saransk', './src/img/sedes/mordovia.jpg'),
 (13, '', '', '', '', 'Kulebjaka (Volga)', '', '28', '', '', 'Samara', './src/img/sedes/samara.jpg'),
