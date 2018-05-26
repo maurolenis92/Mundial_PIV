@@ -25,7 +25,7 @@
 		 					<?php 
 		 						foreach ($paises as $pais) { ?>
 			 						<tr>
-				 						<td> <?php echo $pais['SelecNom']  ?> </td>
+				 						<td> <?php echo utf8_encode($pais['SelecNom'])  ?> </td>
 				 						<td> <?php echo $pais['PaisContinente']  ?> </td>
 				 						<td> <?php echo $pais['grupo']  ?> </td>
 				 						<td> <?php echo "Pendiente"  ?> </td>

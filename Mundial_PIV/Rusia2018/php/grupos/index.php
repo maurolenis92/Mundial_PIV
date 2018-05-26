@@ -49,7 +49,7 @@
 			 						<tr>
 				 						<td>
 				 							<img src="<?php echo $pais['Bandera']?>">
-				 							<?php echo $pais['SelecNom'] ?>
+				 							<?php echo utf8_encode($pais['SelecNom'] )?>
 				 						</td>
 				 						<td class="align-items-center"></td>
 				 						<td>0</td>
