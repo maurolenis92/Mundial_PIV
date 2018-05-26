@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 26-05-2018 a las 03:27:31
+-- Tiempo de generación: 26-05-2018 a las 03:31:22
 -- Versión del servidor: 10.1.30-MariaDB
 -- Versión de PHP: 7.2.2
 
@@ -338,7 +338,7 @@ INSERT INTO `pais` (`SelecId`, `SelecNom`, `PaisContinente`, `Bandera`, `GolesNu
 (103, 'Egipto', 'Africa', './src/img/Iconos_paises/Egipto.png', 0, 'A'),
 (104, 'Uruguay', 'America', './src/img/Iconos_paises/Uruguay.png', 0, 'A'),
 (105, 'Portugal', 'Europa', './src/img/Iconos_paises/Portugal.png', 0, 'B'),
-(106, 'España', 'Europa', './src/img/Iconos_paises/España.png', 0, 'B'),
+(106, 'España', 'Europa', './src/img/Iconos_paises/Espania.png', 0, 'B'),
 (107, 'Marruecos', 'Afica', './src/img/Iconos_paises/Marruecos.png', 0, 'B'),
 (108, 'Iran', 'Asia', './src/img/Iconos_paises/Iran.png', 0, 'B'),
 (109, 'Francia', 'Europa', './src/img/Iconos_paises/Francia.png', 0, 'C'),
