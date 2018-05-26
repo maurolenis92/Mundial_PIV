@@ -15,7 +15,7 @@ function Inicio(){
 			$("#contenido").html(data);
 		});
 	});
-	
+
 	$("#grupos a").click(function(e){
 		e.preventDefault();
 		url = $(this).attr("href");
@@ -38,6 +38,7 @@ function Inicio(){
 			$("#contenido").html(data);
 		});
 	});
+
 
 	$("#contenido").on("click", "#empresas", function(e){
 		console.log("Entro al metodo de empresas");
