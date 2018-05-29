@@ -3,7 +3,7 @@
 		private static $db_host ="localhost";
 		private static $db_user = "root";
 		private static $db_pass = "";
-		protected $db_name = "mundial";
+		protected $db_name = "pruebamundial";
 		protected $query;
 		protected $rows = array();
 		private $conexion;

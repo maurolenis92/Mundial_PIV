@@ -22,7 +22,7 @@
 
 		public function consultarAll(){
 			$this->query = "
-			SELECT * FROM judador ORDER BY JugadorGoles ASC";
+			SELECT * FROM jugador ORDER BY JugadorGoles DESC";
 
 			$this->obtener_resultados_query();
 			return $this->rows;

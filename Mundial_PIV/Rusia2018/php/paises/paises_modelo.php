@@ -35,6 +35,16 @@
 
 		}
 
+		public function consultarXId($id){
+			$this->query = "
+			SELECT * FROM pais WHERE SelecId = '$id'
+			";
+
+			$this->obtener_resultados_query();
+			return $this->rows;
+
+		}
+
 	}
 	
  ?>

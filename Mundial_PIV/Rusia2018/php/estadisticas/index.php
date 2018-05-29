@@ -44,12 +44,12 @@
 
 			 						<tr>
 				 						<td> 
-				 							<?php echo $jugador['JugadorNom']. " " . $jugador['JugadorApe']  ?>	
+				 							<?php echo utf8_encode($jugador['JugadorNom']. " " . $jugador['JugadorApe'])  ?>	
 				 						</td>
 				 						<td> <?php echo $jugador['JugadorNum']  ?> </td>
 				 						<td> <?php echo $jugador['JugadorEdad']  ?> </td>
 				 						<td> <?php echo $jugador['JugadorPo']  ?> </td>
-				 						<td> <?php echo $jugador['JugadorEqui']  ?> </td>
+				 						<td> <?php echo utf8_encode($jugador['JugadorEqui'])  ?> </td>
 				 						<td> <?php echo $jugador['JugadorGoles']  ?> </td>
 			 						</tr> 							
 		 						<?php }
