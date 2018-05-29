@@ -36,6 +36,7 @@
  					<div class="col-5">
  						<div class="row">
  							<div class="col-6">
+ 								<img src="<?php echo $pais1[0]['Bandera']?>">
  								<label><?php echo utf8_encode($pais1[0]['SelecNom']) ?></label>		
  							</div>
  							<div class="col-6">
@@ -52,6 +53,7 @@
  								<input type="number" name="">		
  							</div>
  							<div class="col-6">
+ 								<img src="<?php echo $pais2[0]['Bandera']?>">
  								<label><?php echo utf8_encode($pais2[0]['SelecNom']) ?></label>		
  							</div>
  						</div>
